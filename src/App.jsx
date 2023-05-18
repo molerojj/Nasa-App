@@ -43,7 +43,7 @@ function App() {
         </div>
 
         <div className="d-flex justify-content-center align-items-center pt-5">
-            <form className="row g-3">
+            <form className="row g-3 d-flex flex-wrap justify-content-center">
                 <div className="col-auto">
                     <input type="date" className="form-control" id="date" value={value} onChange={(e) => handlerInput(e)} />
                 </div>
